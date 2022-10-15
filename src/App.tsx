@@ -1,8 +1,8 @@
-import { Text } from './components/Text'
+import { SignIn } from './pages/Signin'
 import './styles/global.css'
 export function App() {
 
   return (
-    <Text size="sm">Hello World</Text>
+    <SignIn/>
   )
 }
